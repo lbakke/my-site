@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4140a9d574c265b90a264b941b9c629",
+    "revision": "4d8ef33b9cd18cd928ce2df4679070a7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "4ef1b331e7811a695294",
+    "revision": "5eabb12a27c4a167fb2d",
     "url": "/portfolio/static/css/main.cf5ba44c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.a5435a9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ef1b331e7811a695294",
-    "url": "/portfolio/static/js/main.b5ad27bf.chunk.js"
+    "revision": "5eabb12a27c4a167fb2d",
+    "url": "/portfolio/static/js/main.dcbc2084.chunk.js"
   },
   {
     "revision": "529e6ab71e8d34dccd1a",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0f9269261830c3f3a7ca874c4434512",
     "url": "/portfolio/static/media/United-lgZww.f0f92692.ttf"
+  },
+  {
+    "revision": "df9e2529e810e41497d23b45f548d84d",
+    "url": "/portfolio/static/media/aboutword.df9e2529.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
