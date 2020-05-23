@@ -13,7 +13,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-scroll": "^1.7.16"
+    "react-scroll": "^1.7.16",
+    "spotify-web-api-js": "^1.4.0"
   },
   "scripts": {
     "predeploy": "npm run build",
