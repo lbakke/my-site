@@ -16,9 +16,9 @@ export default class Introduction extends Component {
             </Parallax>
 		</div>
 		<div>
-		<Link activeClass="active" className="intro-button" to="about" spy={true} smooth={true} duration={500}>about</Link>
-		<Link className="intro-button" activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link>
-		<span className="intro-button">contact</span></div>
+        <Link className="intro-button" activeClass="active" to="about" spy={true} smooth={true} duration={500}>about</Link>
+		<Link className="intro-button" activeClass="active" to="experience" spy={true} smooth={true} duration={500}>experience</Link>
+		<Link className="intro-button" activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link></div>
       </div>
     )
   }
