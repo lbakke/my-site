@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -18,8 +18,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -62,14 +62,16 @@
   float: left; 
   display: flex; 
   flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
+  /* align-items: center;  */
+  /* justify-content: center;  */
+  text-align: left !important;
 }
 
 .contact {
   background-color: #4985b0;
   min-height: 100vh; 
   width: 50%;
+  float: left;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
@@ -83,6 +85,8 @@ img {
 
 .intro-img {
   width: 70vh; 
+  margin-top: 130px; 
+  margin-bottom: 130px; 
 }
 
 .section-img {
@@ -98,7 +102,6 @@ img {
 .student-header {
   font-family: United; 
   color: #092c50; 
-  padding-bottom: 100px; 
 }
 
 .intro-button {
@@ -126,6 +129,19 @@ img {
   cursor: pointer;
 }
 
+.about-button-dark {
+  font-family: United; 
+  color: #092c50;
+  margin-top: 500px; 
+  margin:20px; 
+  font-size: 20px; 
+}
+
+.about-button-dark:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .about-buttons-holder {
   padding-top: 200px; 
 }
@@ -133,23 +149,51 @@ img {
 .up-arrow {
   width: 10px; 
   color: white;
-  margin-right: 70%; 
+  margin-right: 80%; 
   padding: 0px; 
+  margin-top: -50px; 
 }
 
 .up-arrow:hover {
   cursor: pointer;
 }
 
-.up-arrow-dark {
-  width: 10px; 
-  color: #092c50;
-  margin-right: 70%; 
-  padding: 0px; 
+.contact-info {
+  width: 80%; 
+  min-height: 100%; 
+  text-align: left !important;
+  margin-top: 10%; 
+  margin-left: 10%; 
+  font-size: 20px; 
 }
 
-.up-arrow-dark:hover {
-  cursor: pointer;
+.contact-first-line {
+  margin-bottom: 65px; 
+}
+
+.contact-second-line {
+  margin-bottom: 25px; 
+}
+
+.contact-more-info {
+  margin-bottom: 7px; 
+}
+
+.social-link {
+  margin-right: 30px; 
+  margin-top: 60px; 
+  float: left;
+  width: 40px; 
+}
+
+a, a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.love-footer {
+  margin-top: 70%;
+  font-size: 15px; 
 }
 
 .App-link {

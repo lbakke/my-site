@@ -4,19 +4,12 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 
-import SpotifyWebApi from "spotify-web-api-js";
-const spotifyApi = new SpotifyWebApi();
+/* spotify credentials */ 
+// import SpotifyWebApi from "spotify-web-api-js";
+// const spotifyApi = new SpotifyWebApi();
 
-
-spotifyApi.getMyCurrentPlaybackState()
-    .then((response) => {
-      this.setState({
-        nowPlaying: { 
-            name: response.item.name, 
-            albumArt: response.item.album.images[0].url
-          }
-      });
-    })
+import { makeStyles } from '@material-ui/core/styles';
+import Drawer from '@material-ui/core/Drawer';
 
 export default class About extends Component {
   render() {
@@ -39,7 +32,6 @@ export default class About extends Component {
       <div className="right-about">
           this is where the content will go !!
           <iframe src="https://open.spotify.com/embed/playlist/1INpNSInMyePSCRraNdbQ4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          <div>listening to... {this.nowPlaying}</div>
       </div>
       </div>
     )

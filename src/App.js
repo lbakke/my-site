@@ -6,9 +6,12 @@ import About from './components/about';
 import Contact from './components/contact';
 import { Link, animateScroll as scroll } from "react-scroll"; 
 
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 function App() {
   return (
 	<div>
+    <ParallaxProvider>
     	<div>
 			<Introduction id="intro"></Introduction>
 		</div>
@@ -18,6 +21,7 @@ function App() {
 		<div>
 			<Contact id="contact"></Contact>
 		</div>
+    </ParallaxProvider>
 	</div>
   );
 }
