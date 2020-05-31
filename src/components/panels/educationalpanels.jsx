@@ -61,7 +61,9 @@ export default function CustomizedExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Info about the project, link...
+            Info about the project, link...basically I'm gonna make this long and rambly so that i can see how its going to get messed up 
+            when it needs more space... which should be happening soon I think..Info about the project, link...basically I'm gonna make this long and rambly so that i can see how its going to get messed up 
+            when it needs more space... which should be happening soon I think..
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

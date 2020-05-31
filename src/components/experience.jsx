@@ -5,7 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 import WorkPanel from './panels/workpanels.jsx';
 import EducationPanel from './panels/educationalpanels.jsx';
-import OtherPanel from './panels/otherpanels.jsx'
+import OtherPanel from './panels/otherpanels.jsx';
+import Drawer from './drawer.jsx';
 
 export default class About extends Component {
   render() {
@@ -26,14 +27,14 @@ export default class About extends Component {
 		<Link className="about-button" activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link></div>
       </div>
       <div className="right-experience">
-        <div className="experience-content">
+          <div className="experience-content">
             <h1>Internships</h1>
-            <WorkPanel/>
+              <WorkPanel/>
             <h1>Education</h1>
-            <EducationPanel/>
+              <EducationPanel/>
             <h1>Additional Projects</h1>
-            <OtherPanel/>
-        </div>
+              <OtherPanel/>
+          </div>
       </div>
       </div>
     )

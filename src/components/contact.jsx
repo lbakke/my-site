@@ -23,9 +23,9 @@ export default class Contact extends Component {
             <img src={require('../images/contactword.png')}/>
           </div>
           <div className="about-buttons-holder">
-          <Link className="about-button" activeClass="active" to="about" spy={true} smooth={true} duration={500}>about</Link>
-		  <Link className="about-button" activeClass="active" to="experience" spy={true} smooth={true} duration={500}>experience</Link>
-		  <Link className="about-button" activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link></div>
+          <Link className="contact-button" activeClass="active" to="about" spy={true} smooth={true} duration={500}>about</Link>
+		  <Link className="contact-button" activeClass="active" to="experience" spy={true} smooth={true} duration={500}>experience</Link>
+		  <Link className="contact-button" activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link></div>
         </div>
         <div className="right-contact"> 
           <div className="contact-info">
@@ -48,7 +48,7 @@ export default class Contact extends Component {
                 <FaLinkedin size={40}/>
               </a>
             </div>
-            <div className="love-footer">© Lauren Bakke 2020; made with ♥️ using github pages</div>
+            <div className="love-footer">© Lauren Bakke 2020; made with ♥️ using create angular app and github pages. </div>
           </div>
         </div>         
       </div>
