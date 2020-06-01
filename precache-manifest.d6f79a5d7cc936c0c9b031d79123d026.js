@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53d9e27ef30457e96200cc3e793a312b",
+    "revision": "b760d0f8b4387be10b86d31b6b44bddd",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "60fd6c09c050d485d23e",
-    "url": "/portfolio/static/css/main.e00787e0.chunk.css"
+    "revision": "5cba402eafaf91ed15b1",
+    "url": "/portfolio/static/css/main.8d5c8b7b.chunk.css"
   },
   {
-    "revision": "d2b49ab12a8d98b09bc5",
-    "url": "/portfolio/static/js/2.8727a242.chunk.js"
+    "revision": "532df4bad0f38923ffc3",
+    "url": "/portfolio/static/js/2.5732f3d7.chunk.js"
   },
   {
-    "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/portfolio/static/js/2.8727a242.chunk.js.LICENSE.txt"
+    "revision": "4a1691fd44116c5f8c99a494e6966d73",
+    "url": "/portfolio/static/js/2.5732f3d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "60fd6c09c050d485d23e",
-    "url": "/portfolio/static/js/main.5f57422c.chunk.js"
+    "revision": "5cba402eafaf91ed15b1",
+    "url": "/portfolio/static/js/main.b5650ef1.chunk.js"
   },
   {
     "revision": "529e6ab71e8d34dccd1a",
@@ -42,18 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f0f9269261830c3f3a7ca874c4434512",
     "url": "/portfolio/static/media/United-lgZww.f0f92692.ttf"
-  },
-  {
-    "revision": "df9e2529e810e41497d23b45f548d84d",
-    "url": "/portfolio/static/media/aboutword.df9e2529.png"
-  },
-  {
-    "revision": "2b9b13781a880445e1531a71c20dde5c",
-    "url": "/portfolio/static/media/contactword.2b9b1378.png"
-  },
-  {
-    "revision": "093c4d3b0086aaee9f026e6bf5ce2c82",
-    "url": "/portfolio/static/media/experienceword.093c4d3b.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
