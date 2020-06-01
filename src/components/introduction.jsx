@@ -16,13 +16,13 @@ export default class Introduction extends Component {
 	  <div className="introduction" name="home">
           <div>
               <a href="https://github.com/lbakke" className="social-link">
-                <FaGithub size={40}/>
+                <FaGithub size={30}/>
               </a>
               <a href="https://twitter.com/laurenjbakke" className="social-link">
-                <FaTwitter size={40}/>
+                <FaTwitter size={30}/>
               </a>
               <a href="https://www.linkedin.com/in/lauren-b-aa4b84113/" className="social-link">
-                <FaLinkedin size={40}/>
+                <FaLinkedin size={30}/>
               </a>
             </div>
         <div className="intro-box">
@@ -37,9 +37,9 @@ export default class Introduction extends Component {
                 wrapper='b'
                 steps={[
                     'a developer.', 2000,
-                    'a student.', 2000,
+                    'a Notre Dame student.', 2000,
                     'an open-sourcer.', 2000,
-                    'an intern.', 2000
+                    'an intern at AT&T.', 2000
                 ]}
                 />
             </p>
@@ -55,6 +55,9 @@ export default class Introduction extends Component {
             <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link>
           </div>   
         </div>  
+        <div className="intro-arrow">
+          <FaArrowDown size={40}/>
+        </div>
       </div>
     )
   }

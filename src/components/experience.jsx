@@ -7,35 +7,16 @@ import WorkPanel from './panels/workpanels.jsx';
 import EducationPanel from './panels/educationalpanels.jsx';
 import OtherPanel from './panels/otherpanels.jsx';
 import Drawer from './drawer.jsx';
+import WebDevCard from './cards/webdevcard.jsx';
 
-export default class About extends Component {
+export default class Experience extends Component {
   render() {
     return (
       <div>
-      <div name="experience" className="experience">
-        <div className="up-arrow">
-          <Link activeClass="active" to="home" spy={true} smooth={true} duration={500}>
-            <FontAwesomeIcon icon={faAngleDoubleUp}/>
-          </Link>
+          <div className="blank-space"/>
+          <div name="experience" className="introduction">
+        <div className="about-header">experience</div>
         </div>
-        <div className="section-img">
-            <img src={require('../images/experienceword.png')}/>
-        </div>
-        <div className="about-buttons-holder">
-        <Link className="about-button" activeClass="active" to="about" spy={true} smooth={true} duration={500}>about</Link>
-		<Link className="about-button" activeClass="active" to="experience" spy={true} smooth={true} duration={500}>experience</Link>
-		<Link className="about-button" activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link></div>
-      </div>
-      <div className="right-experience">
-          <div className="experience-content">
-            <h1>Internships</h1>
-              <WorkPanel/>
-            <h1>Education</h1>
-              <EducationPanel/>
-            <h1>Additional Projects</h1>
-              <OtherPanel/>
-          </div>
-      </div>
       </div>
     )
   }

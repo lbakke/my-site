@@ -10,29 +10,35 @@ import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
 
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
+import Typing from 'react-typing-animation';
+
+var ColorLink = {
+    color: 'blue'
+}
 
 export default class About extends Component {
   render() {
     return (
       <div>
-      <div name="about" className="about">
-        <div className="up-arrow">
-          <Link activeClass="active" to="home" spy={true} smooth={true} duration={500}>
-            <FontAwesomeIcon icon={faAngleDoubleUp}/>
-          </Link>
+      <div className="blank-space"/>
+      <div name="about" className="introduction">
+          <div className="about-header">about</div>
+          <div className="about-facts">
+            <div>hometown: Minneapolis, MN</div><div>school: University of Notre Dame</div><div>major: Computer Science</div>
+                <div>hobbies: <a style={ColorLink} href="https://www.youtube.com/watch?v=NT2_gOJm9Xs">marching band</a>, <a style={ColorLink} href="https://www.youtube.com/watch?v=IXKXumEvLFk">ND symphony orchestra</a> and co-hosting a <a style={ColorLink} href="https://wsnd.nd.edu/">radio show</a></div>
+          </div>
+          <div className="about-text">
+            <p>Hello! My name is Lauren and I'm glad to see you made it to my site. 
+          I'm a midwestern gal from Minneapolis, MN and am about to start my fourth and final year at the University 
+          of Notre Dame. College has been the greatest years of my life so far - not only have I met some incredible 
+          professors and students through classes, the marching band, and other activities on campus, but I've also 
+          been able to watch myself grow intellectually in ways I had never even imagined. I had never
+          coded before coming to college, but I took a chance on the computer science major and it has rewarded me ever since.</p>
+          <p>
+            If you want to read a bit more about my professional and educational experiences, keep on scrolling!
+          </p> 
         </div>
-        <div className="section-img">
-            <img src={require('../images/aboutword.png')}/>
-        </div>
-        <div className="about-buttons-holder">
-        <Link className="about-button" activeClass="active" to="about" spy={true} smooth={true} duration={500}>about</Link>
-		<Link className="about-button" activeClass="active" to="experience" spy={true} smooth={true} duration={500}>experience</Link>
-		<Link className="about-button" activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link></div>
-      </div>
-      <div className="right-about">
-          this is where the content will go !!
-          <iframe src="https://open.spotify.com/embed/playlist/1INpNSInMyePSCRraNdbQ4" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-      </div>
+      </div> 
       </div>
     )
   }

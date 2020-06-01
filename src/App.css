@@ -62,7 +62,7 @@
 }
 
 .intro-buttons {
-  padding-top: 10%;
+  padding-top: 7%;
   font-family: RobotoMono; 
   padding-left: 70px;
   padding-bottom: 30px; 
@@ -80,6 +80,48 @@
   text-decoration: underline;
   cursor: pointer;
 } 
+
+.intro-arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blank-space {
+  height: 15vh; 
+  background-color: #171717;
+}
+
+.delay-text {
+  transition-delay: 1s;
+  transition-property: color;
+}
+
+.about-header {
+  margin-left: 70px;
+  font-size: 80px;  
+  margin-top: 50px; 
+}
+
+.about-facts {
+  font-family: RobotoMono; 
+  padding-left: 70px;
+  padding-bottom: 30px; 
+  margin-top: 30px; 
+  font-size: 30px; 
+}
+
+.about-text {
+  font-size: 20px; 
+  margin-top: 20px; 
+  padding-left: 70px; 
+  font-family: RobotoMonoLight;
+  padding-right: 70px; 
+}
+
+.link-coloring {
+  color: blue; 
+}
 
 .about {
   background-color: #092c50; 
