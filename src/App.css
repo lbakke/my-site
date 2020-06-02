@@ -117,10 +117,25 @@
   padding-left: 70px; 
   font-family: RobotoMonoLight;
   padding-right: 70px; 
+  color: white;
 }
 
 .link-coloring {
   color: blue; 
+}
+
+.footer-holder {
+  height: 40px; 
+  background-color: #171717;
+}
+
+.footer-text {
+  font-size: 15px; 
+  font-family: RobotoMonoLight;
+  color: white;
+  margin: 0px !important; 
+  width: 100%;
+  text-align: center;
 }
 
 .about {

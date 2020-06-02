@@ -33,16 +33,16 @@ export default function SimpleCard() {
     <Card className={classes.root}>
       <CardContent>
         <Typography className={classes.title} color="#ffffff" gutterBottom>
-          Education
+          Personal
         </Typography>
         <Typography variant="h5" component="h2">
-          Web Development Site
+          Portfolio
         </Typography>
         <Typography className={classes.pos} color="#ffffff">
-          January 2019-May 2019
+          May 2019-June 2019
         </Typography>
         <Typography variant="body2" component="p">
-          Creating the site for blah blah blah
+          Created my own personal portfolio using React, a language that was completely new to me. 
           <br />
         </Typography>
       </CardContent>

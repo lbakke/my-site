@@ -44,7 +44,8 @@ export default function SimpleCard() {
         <Typography variant="body2" component="p">
           In the social sensing course, two students and I developed an "election predictor" for the 2020 election. We scraped 
           tweets of many "swing" states and developed an algorithm to incorporate all types of voters in those states, using
-          recent polling data to help account for the percentage of non-twitter users in those states. 
+          recent polling data to help account for the percentage of non-twitter users in those states, and predict the outcome
+          of the election. 
           <br />
         </Typography>
       </CardContent>

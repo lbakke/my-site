@@ -16,6 +16,15 @@ export default class Contact extends Component {
         <div className="blank-space"/>
         <div name="contact" className="introduction">
       <div className="about-header">contact</div>
+      <div className="about-text">
+        if you want to get in touch or hear more about me, you are very welcome to contact me. 
+        <h1>mail me:</h1><p>lbakke@nd.edu</p>
+      </div>
+      </div>
+      <div className="footer-holder">
+        <div className="footer-text">
+          © Lauren Bakke 2020; made with ♥️ using create angular app and github pages.
+        </div>
       </div>
     </div>
     //   <div>
