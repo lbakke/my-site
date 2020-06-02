@@ -7,16 +7,19 @@ import WorkPanel from './panels/workpanels.jsx';
 import EducationPanel from './panels/educationalpanels.jsx';
 import OtherPanel from './panels/otherpanels.jsx';
 import Drawer from './drawer.jsx';
-import WebDevCard from './cards/webdevcard.jsx';
+import CenteredGrid from './material-ui/grid.jsx';
 
 export default class Experience extends Component {
   render() {
     return (
       <div>
-          <div className="blank-space"/>
-          <div name="experience" className="introduction">
-        <div className="about-header">experience</div>
-        </div>
+        <div className="blank-space"/>
+        <div name="experience" className="introduction">
+          <div className="about-header">experience</div>
+          <div className="experience-box">
+            <CenteredGrid/>
+            </div>
+          </div>
       </div>
     )
   }
