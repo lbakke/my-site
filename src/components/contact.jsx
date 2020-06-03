@@ -14,7 +14,7 @@ export default class Contact extends Component {
     return (
       <div>
         <div className="blank-space"/>
-        <div name="contact" className="introduction">
+        <div name="contact" className="contact">
       <div className="about-header">contact</div>
       <div className="about-text">
         if you want to get in touch or hear more about me, you are very welcome to contact me. 

@@ -101,14 +101,20 @@
   margin-left: 70px;
   font-size: 80px;  
   margin-top: 50px; 
+  float: left; 
+  width: 22%; 
 }
 
 .about-facts {
   font-family: RobotoMono; 
   padding-left: 70px;
-  padding-bottom: 30px; 
-  margin-top: 30px; 
   font-size: 30px; 
+  float: left; 
+}
+
+.about-facts-holder {
+  padding-bottom: 30px; 
+  padding-top: 30px; 
 }
 
 .about-text {
@@ -130,10 +136,10 @@
 }
 
 .footer-text {
-  font-size: 15px; 
+  font-size: 12px; 
   font-family: RobotoMonoLight;
   color: white;
-  margin: 0px !important; 
+  margin: -40px !important; 
   width: 100%;
   text-align: center;
 }
@@ -199,33 +205,21 @@
   margin-bottom: 50px; 
 }
 
-.right-contact {
-  min-height: 100vh; 
-  width: 50%; 
-  float: left; 
-  display: flex; 
+.contact {
+  background-color: #171717;
+  font-family: RobotoMono;
+  min-height: 100vh;
+  display: flex;
   flex-direction: column; 
-  /* align-items: center;  */
-  /* justify-content: center;  */
-  text-align: left !important;
-  background-color: #4985b0; 
+  font-size: calc(10px + 2vmin); 
   color: white;
 }
 
-.contact {
-  background-color: #ebfff5;
-  min-height: 100vh; 
-  width: 50%;
-  float: left;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-}
-
 img {
-  max-width:100%; 
-  height: auto; 
+  display: block;
+  width: 15%;
+  height: 15%; 
+  float: left; 
 }
 
 .intro-img {

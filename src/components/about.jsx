@@ -13,7 +13,12 @@ import Drawer from '@material-ui/core/Drawer';
 import Typing from 'react-typing-animation';
 
 var ColorLink = {
-    color: 'blue'
+    color: 'green'
+}
+
+var BoldColorLink = {
+  color: 'green',
+  fontWeight: 'bold'
 }
 
 export default class About extends Component {
@@ -22,10 +27,16 @@ export default class About extends Component {
       <div>
       <div className="blank-space"/>
       <div name="about" className="introduction">
-          <div className="about-header">about</div>
-          <div className="about-facts">
-            <div>hometown: Minneapolis, MN</div><div>school: University of Notre Dame</div><div>major: Computer Science</div>
-                <div>hobbies: <a style={ColorLink} href="https://www.youtube.com/watch?v=NT2_gOJm9Xs">marching band</a>, <a style={ColorLink} href="https://www.youtube.com/watch?v=IXKXumEvLFk">ND symphony orchestra</a> and co-hosting a <a style={ColorLink} href="https://wsnd.nd.edu/">radio show</a></div>
+        <div>
+          <div className="about-header">about</div><img src={require('../images/IMG_0270.png')} />
+        </div>
+          <div className="about-facts-holder">
+            <div className="about-facts">
+              <div>hometown: Minneapolis, MN</div><div>school: University of Notre Dame</div><div>major: Computer Science</div>
+            </div>
+            <div className="about-facts"> 
+              <div>hobbies: <a style={ColorLink} href="https://www.youtube.com/watch?v=NT2_gOJm9Xs">marching band</a>, <a style={ColorLink} href="https://www.youtube.com/watch?v=IXKXumEvLFk">ND symphony orchestra</a> and co-hosting a <a style={ColorLink} href="https://wsnd.nd.edu/">radio show</a></div>
+            </div>
           </div>
           <div className="about-text">
             <p>Hello! My name is Lauren and I'm glad to see you made it to my site. 
@@ -35,7 +46,8 @@ export default class About extends Component {
           been able to watch myself grow intellectually in ways I had never even imagined. I had never
           coded before coming to college, but I took a chance on the computer science major and it has rewarded me ever since.</p>
           <p>
-            If you want to read a bit more about my professional and educational experiences, keep on scrolling!
+            Feel free to check out my <a style={BoldColorLink} href="https://drive.google.com/file/d/1XLqfXpRyg1i5j2SuKC2DjWMp0yPCpda_/view?usp=sharing">resume</a>, and if you want to read a bit more about my professional and educational 
+            experiences, keep on scrolling!
           </p> 
         </div>
       </div> 

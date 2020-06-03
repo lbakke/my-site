@@ -19,7 +19,7 @@ export default class Experience extends Component {
           <div className="experience-box">
             <CenteredGrid/>
             </div>
-          </div>
+        </div>
       </div>
     )
   }
