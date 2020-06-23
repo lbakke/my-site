@@ -14,7 +14,7 @@ export default class Introduction extends Component {
   render() {
     return (
 	  <div className="introduction" name="home">
-          <div>
+          <div className="social-buttons"> 
               <a href="https://github.com/lbakke" className="social-link">
                 <FaGithub size={30}/>
               </a>
@@ -29,7 +29,6 @@ export default class Introduction extends Component {
           <div className="intro-hi">Hello!</div>
           <div className="intro-name">I'm Lauren.</div>
         </div>
-        {/* <Typing><span>Hi, I'm lauren</span></Typing> */}
         <div className="typing-box">
             <p> I'm {' '}
                 <Typical 

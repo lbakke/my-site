@@ -1,26 +1,40 @@
 import React, { Component } from 'react'
 import '../App.css'; 
 import { Link, animateScroll as scroll } from "react-scroll"; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
-import WorkPanel from './panels/workpanels.jsx';
-import EducationPanel from './panels/educationalpanels.jsx';
-import OtherPanel from './panels/otherpanels.jsx';
 import Drawer from './drawer.jsx';
-import CenteredGrid from './material-ui/grid.jsx';
+import {Container, Row, Col} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import ACard from './cards/attcard.jsx';
+import CSICard from './cards/csicard.jsx';
+import PCard from './cards/portcard.jsx';
+import RCard from './cards/researchcard.jsx';
+import SCard from './cards/sscard.jsx';
+import TCard from './cards/tacard.jsx';
+import WCard from './cards/wdcard.jsx';
 
 export default class Experience extends Component {
   render() {
     return (
       <div>
         <div className="blank-space"/>
-        <div name="experience" className="introduction">
-          <div className="about-header">experience</div>
-          <div className="experience-box">
-            <CenteredGrid/>
-            </div>
+        <div name="experience" className="about-header">experience</div>
+          <Container className="introduction">
+            <Row>
+              <Col lg><ACard/></Col>
+              <Col lg><CSICard/></Col>
+            </Row>
+            <Row>
+              <Col lg><RCard/></Col>
+              <Col lg><SCard/></Col>   
+            </Row>
+            <Row>
+            <Col lg><PCard/></Col>
+              <Col lg><TCard/></Col>
+              <Col lg><WCard/></Col>
+            </Row>
+          </Container>
         </div>
-      </div>
     )
   }
 }

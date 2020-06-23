@@ -28,7 +28,7 @@ export default class About extends Component {
       <div className="blank-space"/>
       <div name="about" className="introduction">
         <div>
-          <div className="about-header">about</div><img src={require('../images/IMG_0270.png')} />
+          <div className="about-header">about</div>
         </div>
           <div className="about-facts-holder">
             <div className="about-facts">
