@@ -47,7 +47,7 @@
 
 .intro-box {
   padding-left: 5%; 
-  padding-top: 10vh;
+  padding-top: 12vh;
 }
 
 .typing-box {
@@ -55,18 +55,18 @@
 }
 
 .intro-hi {
-  font-size: calc(14px + (26) * ((10vw) / (60)));
+  font-size: calc(30px + 4vw);
 }
 
 .intro-name {
-  font-size: calc(14px + (26) * ((10vw) / (60)));
+  font-size: calc(30px + 4vw);
 }
 
 .intro-buttons {
-  padding-top: calc(50px + (15vh));
+  padding-top: 12vh;
   font-family: RobotoMono; 
   padding-left: 5%;
-  padding-bottom: 5vh; 
+  padding-bottom: 3vh; 
   width: 100px; 
 }
 
@@ -74,7 +74,7 @@
   font-family: RobotoMono; 
   color: #ffffff;
   font-size: 18px; 
-  padding-top: 5px;
+  padding-top: 1vh;
 }
 
 .intro-button:hover {
