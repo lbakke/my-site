@@ -46,12 +46,12 @@
 }
 
 .intro-box {
-  padding-left: 5%; 
+  padding-left: 7%; 
   padding-top: 12vh;
 }
 
 .typing-box {
-  padding-left: 5%; 
+  padding-left: 7%; 
 }
 
 .intro-hi {
@@ -65,7 +65,7 @@
 .intro-buttons {
   padding-top: 12vh;
   font-family: RobotoMono; 
-  padding-left: 5%;
+  padding-left: 7%; 
   padding-bottom: 3vh; 
   width: 100px; 
 }
@@ -93,14 +93,9 @@
   background-color: #171717;
 }
 
-.delay-text {
-  transition-delay: 1s;
-  transition-property: color;
-}
-
 .about-header {
-  margin-left: 70px;
-  font-size: calc(14px + (26) * ((50vw) / (200)));
+  padding-left: 7%; 
+  font-size: calc(30px + 4vw);
   margin-top: 50px; 
   float: left; 
   width: 22%; 
@@ -108,7 +103,7 @@
 
 .about-facts {
   font-family: RobotoMono; 
-  padding-left: 70px;
+  padding-left: 7%; 
   font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   float: left; 
 }
@@ -121,7 +116,7 @@
 .about-text {
   font-size: 20px; 
   margin-top: 20px; 
-  padding-left: 70px; 
+  padding-left: 7%; 
   font-family: RobotoMonoLight;
   padding-right: 70px; 
   color: white;
@@ -145,7 +140,7 @@
   text-align: center;
 }
 
-.about {
+/* .about {
   background-color: #092c50; 
   min-height: 100vh; 
   width: 50%; 
@@ -165,9 +160,9 @@
   align-items: center; 
   justify-content: center; 
   background-color: #fff5fa;
-}
+} */
 
-.experience {
+/* .experience {
   background-color: #4985b0; 
   min-height: 100vh; 
   width: 50%; 
@@ -176,15 +171,15 @@
   flex-direction: column; 
   align-items: center; 
   justify-content: center; 
-}
+}*/
 
 .experience-box {
   margin-top: 50px; 
   padding-left: 70px; 
   padding-right: 70px; 
-}
+} 
 
-.right-experience {
+/* .right-experience {
   height: 100vh; 
   width: 50%; 
   float: left; 
@@ -193,7 +188,7 @@
   background-color: #092c50;
   color: #ffffff;
   text-align: center;
-}
+} */
 
 .experience-content {
   width: 80%; 
