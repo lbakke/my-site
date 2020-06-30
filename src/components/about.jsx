@@ -31,9 +31,9 @@ export default class About extends Component {
           <div className="about-header">about</div>
         </div>
           <div className="about-facts-holder">
-            <div className="about-facts">
-              <div>hometown: Minneapolis, MN</div><div>school: University of Notre Dame</div><div>major: Computer Science</div>
-            </div>
+            <div className="about-facts">hometown: Minneapolis, MN</div>
+            <div className="about-facts">school: University of Notre Dame</div>
+            <div className="about-facts">major: Computer Science</div>
             <div className="about-facts"> 
               <div>hobbies: <a style={ColorLink} href="https://www.youtube.com/watch?v=NT2_gOJm9Xs">marching band</a>, <a style={ColorLink} href="https://www.youtube.com/watch?v=IXKXumEvLFk">ND symphony orchestra</a> and co-hosting a <a style={ColorLink} href="https://wsnd.nd.edu/">radio show</a></div>
             </div>

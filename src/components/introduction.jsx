@@ -1,20 +1,24 @@
 import React, { Component } from 'react'
 import '../App.css';
 import { Link, animateScroll as scroll } from "react-scroll"; 
+import { IconContext } from "react-icons";
 import { FaArrowDown } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-
-
 import Typical from 'react-typical';
 import Typing from 'react-typing-animation';
+import { Typography, Space } from 'antd';
+
+const { Text, Title } = Typography;
 
 export default class Introduction extends Component {
   render() {
     return (
+      <div>
 	  <div className="introduction" name="home">
           <div className="social-buttons"> 
+          <IconContext.Provider value={{ color: "black", className: "global-class-name" }}>
               <a href="https://github.com/lbakke" className="social-link">
                 <FaGithub size={30}/>
               </a>
@@ -24,11 +28,10 @@ export default class Introduction extends Component {
               <a href="https://www.linkedin.com/in/lauren-b-aa4b84113/" className="social-link">
                 <FaLinkedin size={30}/>
               </a>
+            </IconContext.Provider>
             </div>
         <div className="intro-box">
-          <div className="intro-hi">Hello!</div>
-          <div className="intro-name">I'm Lauren.</div>
-        </div>
+          <Title className="intro-name">Hi, I'm Lauren.</Title>
         <div className="typing-box">
             <p> I'm {' '}
                 <Typical 
@@ -41,7 +44,8 @@ export default class Introduction extends Component {
                     'an intern at AT&T.', 2000
                 ]}
                 />
-            </p>
+            </p> 
+        </div>
         </div>
         <div className="intro-buttons">
           <div className="intro-button">
@@ -53,10 +57,11 @@ export default class Introduction extends Component {
           <div className="intro-button">
             <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>contact</Link>
           </div>   
-        </div>  
+        </div>   
         <div className="intro-arrow">
           <FaArrowDown size={40}/>
         </div>
+      </div>
       </div>
     )
   }

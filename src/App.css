@@ -1,6 +1,7 @@
 /* .App {
   text-align: center;
 } */
+@import '~antd/dist/antd.css';
 
 .App-logo {
   height: 40vmin;
@@ -24,25 +25,23 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   /* align-items: center;
   justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: #262626; */
 }
 
 .introduction {
-  background-color: #171717;
-  font-family: RobotoMono;
+  /* font-family: RobotoMono; */
   min-height: 100vh;
   max-width: 100%;
   display: flex;
   flex-direction: column; 
   font-size: calc(10px + 2vmin); 
-  color: white;
 }
 
 .intro-box {
@@ -50,29 +49,27 @@
   padding-top: 12vh;
 }
 
-.typing-box {
-  padding-left: 7%; 
-}
-
-.intro-hi {
-  font-size: calc(30px + 4vw);
-}
-
 .intro-name {
-  font-size: calc(30px + 4vw);
+  font-size: calc(30px + 4vw) !important; 
+  margin-bottom: 1vh !important;
+  margin-top: 10vh;
+}
+
+.typing-box {
+  margin-bottom: 5vh;
 }
 
 .intro-buttons {
   padding-top: 12vh;
-  font-family: RobotoMono; 
+  /* font-family: RobotoMono;  */
   padding-left: 7%; 
-  padding-bottom: 3vh; 
+  padding-bottom: 10vh; 
   width: 100px; 
 }
 
 .intro-button {
-  font-family: RobotoMono; 
-  color: #ffffff;
+  /* font-family: RobotoMono;  */
+  color: #000000 !important;
   font-size: 18px; 
   padding-top: 1vh;
 }
@@ -90,7 +87,7 @@
 
 .blank-space {
   height: 15vh; 
-  background-color: #171717;
+  background-color: #ffffff;
 }
 
 .about-header {
@@ -99,13 +96,15 @@
   margin-top: 50px; 
   float: left; 
   width: 22%; 
+  color: black; 
 }
 
 .about-facts {
-  font-family: RobotoMono; 
+  /* font-family: RobotoMono;  */
   padding-left: 7%; 
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  float: left; 
+  padding-right: 3%; 
+  font-size: calc(15px + .5vw);
+  padding-bottom: 1vh;
 }
 
 .about-facts-holder {
@@ -114,12 +113,12 @@
 }
 
 .about-text {
-  font-size: 20px; 
+  font-size: calc(15px + .5vw);
   margin-top: 20px; 
   padding-left: 7%; 
-  font-family: RobotoMonoLight;
-  padding-right: 70px; 
-  color: white;
+  /* font-family: RobotoMonoLight; */
+  padding-right: 3%; 
+  color: #262626;
 }
 
 .link-coloring {
@@ -128,67 +127,23 @@
 
 .footer-holder {
   height: 40px; 
-  background-color: #171717;
+  background-color: #ffffff;
 }
 
 .footer-text {
   font-size: 12px; 
-  font-family: RobotoMonoLight;
-  color: white;
+  /* font-family: RobotoMonoLight; */
+  color: black;
   margin: -40px !important; 
   width: 100%;
   text-align: center;
 }
-
-/* .about {
-  background-color: #092c50; 
-  min-height: 100vh; 
-  width: 50%; 
-  float: left; 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-}
-
-.right-about {
-  height: 100vh; 
-  width: 50%; 
-  float: left; 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  background-color: #fff5fa;
-} */
-
-/* .experience {
-  background-color: #4985b0; 
-  min-height: 100vh; 
-  width: 50%; 
-  float: left; 
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-}*/
 
 .experience-box {
   margin-top: 50px; 
   padding-left: 70px; 
   padding-right: 70px; 
 } 
-
-/* .right-experience {
-  height: 100vh; 
-  width: 50%; 
-  float: left; 
-  display: flex; 
-  overflow: auto;
-  background-color: #092c50;
-  color: #ffffff;
-  text-align: center;
-} */
 
 .experience-content {
   width: 80%; 
@@ -202,8 +157,8 @@
 }
 
 .contact {
-  background-color: #171717;
-  font-family: RobotoMono;
+  background-color: #ffffff;
+  /* font-family: RobotoMono; */
   min-height: 100vh;
   display: flex;
   flex-direction: column; 
@@ -245,24 +200,12 @@ img {
 }
 
 .student-header {
-  font-family: Domotika; 
+  /* font-family: Domotika;  */
   color: #092c50; 
 }
-/* 
-.intro-button {
-  font-family: Domotika; 
-  color: #092c50;
-  margin-top: 100px; 
-  margin:20px; 
-}
-
-.intro-button:hover {
-  text-decoration: underline;
-  cursor: pointer;
-} */
 
 .about-button {
-  font-family: Domotika; 
+  /* font-family: Domotika;  */
   color: #ffffff;
   margin-top: 500px; 
   margin:20px; 
@@ -282,7 +225,7 @@ img {
 }
 
 .about-button-dark {
-  font-family: United; 
+  /* font-family: United;  */
   color: #092c50;
   margin-top: 500px; 
   margin:20px; 
@@ -339,14 +282,15 @@ img {
 
 .social-link {
   display: inline;
-  width: 40px; 
+  width: calc(2% + 30px);
   float: right;
   padding-right: 3%; 
-  padding-top: 3%; 
+  padding-top: 3vh; 
 }
 
 .social-buttons {
-  padding-right: 4%;
+  padding-right: 6%;
+  color: black !important;
 }
 
 a, a:link, a:visited {

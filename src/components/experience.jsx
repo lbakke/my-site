@@ -18,10 +18,11 @@ export default class Experience extends Component {
     return (
       <div>
         <div className="blank-space"/>
+        <div className="introduction">
         <div name="experience" className="about-header">experience</div>
           <Container className="introduction">
             <Row>
-              <Col lg><ACard/></Col>
+              <Col lg style={{"margin-bottom": "40px"}}><ACard/></Col>
               <Col lg><CSICard/></Col>
             </Row>
             <Row>
@@ -35,6 +36,7 @@ export default class Experience extends Component {
             </Row>
           </Container>
         </div>
+      </div>
     )
   }
 }
