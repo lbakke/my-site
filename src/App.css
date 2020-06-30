@@ -97,6 +97,7 @@
   float: left; 
   width: 22%; 
   color: black; 
+  display: inline-block;
 }
 
 .about-facts {
@@ -127,7 +128,7 @@
 
 .footer-holder {
   height: 40px; 
-  background-color: #ffffff;
+  background-color: #ffffff; 
 }
 
 .footer-text {
@@ -278,6 +279,11 @@ img {
 
 .contact-more-info {
   margin-bottom: 7px; 
+}
+
+.speech-bubble {
+  display: inline-block;
+  float: left;
 }
 
 .social-link {

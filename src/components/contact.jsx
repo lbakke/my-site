@@ -8,6 +8,7 @@ import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { Browser, SpeechBubble } from 'react-kawaii'
 
 export default class Contact extends Component {
   render() {
@@ -15,7 +16,8 @@ export default class Contact extends Component {
       <div>
         <div className="blank-space"/>
         <div name="contact" className="contact">
-      <div className="about-header">contact</div>
+      <div className="about-header">contact
+      <div className="speech-bubble"><SpeechBubble size={150} mood="lovestruck" color="#83D1FB" /></div></div>
       <div className="about-text">
         if you want to get in touch or hear more about me, you are very welcome to contact me. 
         <h1>mail me:</h1><p>lbakke@nd.edu</p>
