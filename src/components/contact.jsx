@@ -5,31 +5,61 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
+
+import { Browser, SpeechBubble } from 'react-kawaii'
+
 import { FaGithub } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
-import { Browser, SpeechBubble } from 'react-kawaii'
+import { FaLinkedin, FaPaperPlane } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+
+
+import { MailTwoTone, CodeTwoTone, GithubFilled, MailOutlined } from '@ant-design/icons';
+
+import { Statistic } from 'antd';
+
 
 export default class Contact extends Component {
   render() {
     return (
       <div>
         <div className="blank-space"/>
-        <div name="contact" className="contact">
-      <div className="about-header">contact
-      <div className="speech-bubble"><SpeechBubble size={150} mood="lovestruck" color="#83D1FB" /></div></div>
-      <div className="about-text">
-        if you want to get in touch or hear more about me, you are very welcome to contact me. 
-        <h1>mail me:</h1><p>lbakke@nd.edu</p>
+        <div className="introduction">
+      <div className="about-header" name="contact" style={{"width": "50%"}}>contact</div>
+      {/* <SpeechBubble size={80} mood="happy" color="#83D1FB" /></div> */}
+      <div className="contact-text">
+        <p>if you want to get in touch or hear more about me, you are very welcome to contact me. </p>
+        <div className="react-icons-box">
+        <IconContext.Provider value={{ className: "react-icons-contact" }}>
+              <div className="contact-stats">
+              <Statistic title="email" value={"lbakke@nd.edu"} />
+              </div>
+              <div className="contact-stats">
+              <a href="https://github.com/lbakke">
+                <Statistic title="github" value={"lbakke"} />
+              </a>
+              </div>
+              <div className="contact-stats">
+              <a href="https://www.linkedin.com/in/lauren-b-aa4b84113/">
+                <Statistic title="linkedin" value={"Lauren Bakke"} />
+              </a>
+              </div>
+              <div className="contact-stats">
+              <a href="https://twitter.com/laurenjbakke" >
+                <Statistic title="twitter" value={"laurenjbakke"} />
+              </a>
+              </div>
+            </IconContext.Provider>
+            </div>
       </div>
-      </div>
-      <div className="footer-holder">
-        <div className="footer-text">
-          © Lauren Bakke 2020; made with ♥️ using create angular app and github pages.
         </div>
-      </div>
+        <div className="footer-holder">
+        <div className="footer-text">
+          © Lauren Bakke 2020; made with ♥️ using create angular app, gh-pages and ant-design.
+        </div>
     </div>
-    //   <div>
+    </div>
+     //   <div>
     //     <div className="contact">
     //     <div className="up-arrow">
     //     </div>
@@ -65,7 +95,7 @@ export default class Contact extends Component {
     //         <div className="love-footer">© Lauren Bakke 2020; made with ♥️ using create angular app and github pages. </div>
     //       </div>
     //     </div>         
-    //   </div>
+    //   </div> */}
     )
   }
 }

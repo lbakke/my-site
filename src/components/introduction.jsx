@@ -18,7 +18,7 @@ export default class Introduction extends Component {
       <div>
 	  <div className="introduction" name="home">
           <div className="social-buttons"> 
-          <IconContext.Provider value={{ color: "black", className: "global-class-name" }}>
+          <IconContext.Provider value={{ className: "react-icons" }}>
               <a href="https://github.com/lbakke" className="social-link">
                 <FaGithub size={30}/>
               </a>

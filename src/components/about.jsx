@@ -13,11 +13,11 @@ import Drawer from '@material-ui/core/Drawer';
 import Typing from 'react-typing-animation';
 
 var ColorLink = {
-    color: 'green'
+    color: '#00ccff'
 }
 
 var BoldColorLink = {
-  color: 'green',
+  color: '#00ccff',
   fontWeight: 'bold'
 }
 
