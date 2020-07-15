@@ -19,7 +19,7 @@ export default class Experience extends Component {
   render() {
     return (
       <div>
-      <div name="experience" className="about-header">experience</div>
+      <div name="experience" className="about-header experience-padding">experience</div>
       <div className="timeline-holder">
       <Timeline mode="alternate" style={{"display": "inline-block"}}>
           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
