@@ -40,7 +40,6 @@ export default class Introduction extends Component {
                 steps={[
                     'a developer.', 2000,
                     'a Notre Dame student.', 2000,
-                    'an open-sourcer.', 2000,
                     'an intern at AT&T.', 2000
                 ]}
                 />
