@@ -112,6 +112,20 @@ export default class Experience extends Component {
             <p>Fall 2020 : Begin my final year at Notre Dame.
             </p>
            </Timeline.Item>
+           <Timeline.Item color="green">
+            <p>Working as a teaching assistant for the Programming Challenges course, helping juniors and seniors in the course debug their code and hone their technical interview skills.
+            </p>
+           </Timeline.Item> 
+           <Timeline.Item color="gold">
+            <p>Was offered and accepted job offer from VMware in Palo Alto. There I will be working as a software engineer on their EXSI Hypervisor and could not be more excited
+              to dive deep into the industry and learn more about deploying and serving virtual computers! 
+            </p>
+            </Timeline.Item>
+            <Timeline.Item color="green">
+            <p>I also began work in the Human Computer Interaction lab on an app used to search for social services in your area. I will be helping them configure their current work into a suitable
+              front-end framework, React. 
+            </p>
+           </Timeline.Item> 
         </Timeline>
         </div>
       </div>
