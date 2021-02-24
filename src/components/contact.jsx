@@ -25,10 +25,9 @@ export default class Contact extends Component {
       <div>
         <div className="blank-space"/>
         <div className="contact-box">
-      <div className="about-header" name="contact" style={{"width": "50%"}}>contact</div>
-      {/* <SpeechBubble size={80} mood="happy" color="#83D1FB" /></div> */}
+          <div className="contact-header" name="contact" style={{"width": "50%", "float": "left"}}>contact</div>
+          <div className="speech-bubble"><SpeechBubble size={100} mood="happy" color="#83D1FB" style={{"margin-top": "-50px", "float": "right!important"}}/></div>
       <div className="contact-text">
-        <p>if you want to get in touch or hear more about me, you are very welcome to contact me. </p>
         <div className="react-icons-box">
         <IconContext.Provider value={{ className: "react-icons-contact" }}>
               <div className="contact-stats">
@@ -52,7 +51,7 @@ export default class Contact extends Component {
             </IconContext.Provider>
             </div>
         </div>
-      </div>
+        </div>
       <div className="footer-holder">
         <div className="footer-text">
           © Lauren Bakke 2020; made with ♥️ using create angular app, gh-pages and ant-design.
