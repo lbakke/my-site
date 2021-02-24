@@ -4,7 +4,8 @@ import './App.css';
 import Introduction from './components/introduction';
 import About from './components/about';
 import Contact from './components/contact';
-import Experience from './components/experience'
+import Experience from './components/experience';
+import Photog from './components/photog.jsx';
 import { Link, animateScroll as scroll } from "react-scroll"; 
 
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -22,6 +23,9 @@ function App() {
     <div>
       <Experience id="experience"></Experience>
     </div>
+	<div>
+			<Photog id="photog"></Photog>
+		</div>
 		<div>
 			<Contact id="contact"></Contact>
 		</div>
