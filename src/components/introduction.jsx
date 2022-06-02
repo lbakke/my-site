@@ -22,9 +22,6 @@ export default class Introduction extends Component {
               <a href="https://github.com/lbakke" className="social-link">
                 <FaGithub size={30}/>
               </a>
-              <a href="https://twitter.com/laurenjbakke" className="social-link">
-                <FaTwitter size={30}/>
-              </a>
               <a href="https://www.linkedin.com/in/lauren-b-aa4b84113/" className="social-link">
                 <FaLinkedin size={30}/>
               </a>
@@ -38,9 +35,9 @@ export default class Introduction extends Component {
                 loop={Infinity}
                 wrapper='b'
                 steps={[
-                    'a developer.', 2000,
-                    'a Notre Dame student.', 2000,
-                    'an intern at AT&T.', 2000
+                    'a Notre Dame alum.', 2000,
+                    'a VMware ESXi developer.', 2000,
+                    'a software engineer.', 2000
                 ]}
                 />
             </p> 

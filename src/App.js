@@ -23,9 +23,6 @@ function App() {
     <div>
       <Experience id="experience"></Experience>
     </div>
-	<div>
-			<Photog id="photog"></Photog>
-		</div>
 		<div>
 			<Contact id="contact"></Contact>
 		</div>

@@ -31,7 +31,7 @@ export default class Contact extends Component {
         <div className="react-icons-box">
         <IconContext.Provider value={{ className: "react-icons-contact" }}>
               <div className="contact-stats">
-              <Statistic title="email" value={"lbakke@nd.edu"} />
+              <Statistic title="email" value={"laurenjbakke@gmail.com"} />
               </div>
               <div className="contact-stats">
               <a href="https://github.com/lbakke">
@@ -43,18 +43,13 @@ export default class Contact extends Component {
                 <Statistic title="linkedin" value={"Lauren Bakke"} />
               </a>
               </div>
-              <div className="contact-stats">
-              <a href="https://twitter.com/laurenjbakke" >
-                <Statistic title="twitter" value={"laurenjbakke"} />
-              </a>
-              </div>
             </IconContext.Provider>
             </div>
         </div>
         </div>
       <div className="footer-holder">
         <div className="footer-text">
-          © Lauren Bakke 2020; made with ♥️ using create angular app, gh-pages and ant-design.
+          © Lauren Bakke 2020; made with ♥️ using create react app, gh-pages and ant-design.
         </div>
       </div>
     </div>

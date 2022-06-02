@@ -25,20 +25,6 @@ export default class Experience extends Component {
           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
             <p>Fall 2017 : start at the University of Notre Dame</p>
           </Timeline.Item>
-          <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
-            <p>Summer 2018 : intern at SAFE Shelter for victims of domestic violence through
-              Notre Dame's Summer Service Program
-            </p>
-           </Timeline.Item>
-           <Timeline.Item color="green">
-            <p>Stayed with host families in Savannah, GA and helped run the youth program in the shelter.
-            </p>
-           </Timeline.Item>
-           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
-            <p>Fall 2018 : begin second year at Notre Dame, taking classes like Discrete Math, Data Structures, Systems Programming, and 
-              Probability and Statistics.
-            </p>
-           </Timeline.Item>
            <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
             <p>June 2019 : begin work at Coherent Solutions as a full stack developer intern
             </p>
@@ -51,29 +37,9 @@ export default class Experience extends Component {
            <Timeline.Item color="green">
             <p>Spent the remainder of the summer working on the SportsEngine site, completing both
               front-end and back-end work and working on a small agile scrum team.
-              <Button style={{"color": "#9500ff"}} type="text">See the Site</Button>
+              <Button style={{"color": "#9500ff"}} type="text" href="https://www.sportsengine.com/solutions/capabilities/communication/team-mobile-app">See the Site</Button>
             </p>
            </Timeline.Item>
-           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
-            <p>Fall 2019 : begin third year at Notre Dame, with classes like Operating Systems and Computer Architecture.
-            </p>
-           </Timeline.Item>
-           <Timeline.Item color="green">
-            <p>Work as a teaching assistant for Fundamentals of Computing.
-            </p>
-           </Timeline.Item>
-           <Timeline.Item color="gold">
-            <p>Made it on the Dean's List (top 30% of engineering students) in the fall semester of 2019.
-            </p>
-           </Timeline.Item>
-           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
-            <p>Spring 2019 : finish off my third year at Notre Dame, with several difficult programming classes like Theory of Computing. 
-            </p>
-           </Timeline.Item>
-           <Timeline.Item color="gold">
-            <p>Work as a teaching assistant for Principals of Computing, and again made it on the Dean's List.
-            </p>
-            </Timeline.Item>
             <Timeline.Item color="green">
             <p>Created a site in a group of 4 for the Modern Web Development class called "Course Planner" which allowed students to 
               plan out their eight semesters of college through scraping Notre Dame's available courses, giving them a default schedule
@@ -103,38 +69,53 @@ export default class Experience extends Component {
               but I also did some UI work and UX research for them as well. 
             </p>
            </Timeline.Item> 
-           <Timeline.Item color="green">
-            <p>The internship also included an intern coding challenge, where our team of 6 interns created a learning website where students can watch videos and give
-              constant feedback about each topic, and this data is used to create helpful graphs for teachers. I helped lead the front end coding and design of this Angular app. 
-            </p>
-           </Timeline.Item> 
            <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
-            <p>Fall 2020 : Begin my final year at Notre Dame.
+            <p>Fall 2020 : I began work in the Human Computer Interaction lab on an app used to search for social services in your area. I will be helping them configure their current work into a suitable
+              front-end framework, React.
             </p>
            </Timeline.Item>
-           <Timeline.Item color="green">
-            <p>Working as a teaching assistant for the Programming Challenges course, helping juniors and seniors in the course debug their code and hone their technical interview skills.
-            </p>
-           </Timeline.Item> 
-           <Timeline.Item color="gold">
-            <p>Was offered and accepted job offer from VMware in Palo Alto. There I will be working as a software engineer on their EXSI Hypervisor and could not be more excited
-              to dive deep into the industry and learn more about deploying and serving virtual computers! 
-            </p>
-            </Timeline.Item>
-            <Timeline.Item color="green">
-            <p>I also began work in the Human Computer Interaction lab on an app used to search for social services in your area. I will be helping them configure their current work into a suitable
-              front-end framework, React. 
-            </p>
-           </Timeline.Item> 
            <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
-            <p>Spring 2020 : Final Semester at ND
-            </p>
-           </Timeline.Item>
-           <Timeline.Item color="green">
-            <p>Working 20 hours/week on the startup project SAFA through the IDEA center at Notre Dame, which will be used by companies to track how updates to projects impact other pieces of these projects. 
+            <p>Winter-Spring 2021 : Working part time on the startup project SAFA through the IDEA center at Notre Dame, which will be used by companies to track how updates to projects impact other pieces of these projects. 
               I have learned a lot about the end to end proceses of working on a small application, and have improved my Java and Vue-JS skills quite a bit.
             </p>
            </Timeline.Item> 
+           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
+            <p>May 2021 : Graduated from the University of Notre Dame
+            </p>
+           </Timeline.Item> 
+           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
+            <p>May 2021-July 2021 : Developed for an Android app with a startup paired with the IDEA center at Notre Dame. I implemented an algorithm which
+              tracked the location of planes in private airports to help mitigate ground collision risks.
+            </p>
+           </Timeline.Item> 
+           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
+            <p>July 2021: Began work at VMware
+            </p>
+           </Timeline.Item> 
+           <Timeline.Item color="green">
+            <p>Here at VMware, I have had a wide vast of experiences developing for VMware's operating system, the vmkernel. As a member of the ESXi ARM team,
+              I work on the ARM implementation of ESXi, which has many unique use cases.
+            </p>
+           </Timeline.Item> 
+           <Timeline.Item color="green">
+             <p>
+             One prominent use case is running ESXi on a smartNIC (also known as
+              a DPU) which is one of VMware's most exciting projects on the edge, Project Monterey. I have developed several features for Nvidia's BlueField 2 
+              as part of this initiative.
+             </p>
+           </Timeline.Item>
+           <Timeline.Item color="green">
+             <p>
+             Other work I completed for the ARM team include smaller technical debt items like the saving and restoring of certain registers on 
+             signals and upon returning from signals. 
+             </p>
+           </Timeline.Item>
+           <Timeline.Item color="green">
+             <p>
+              I also have done a number of bug triaging and fixing for the team and some of my own independent learning about vmkernel modules, 
+              device drivers, the ARM architecture, and more.
+             </p>
+           </Timeline.Item>
         </Timeline>
         </div>
       </div>
