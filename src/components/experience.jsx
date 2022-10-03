@@ -93,8 +93,8 @@ export default class Experience extends Component {
             </p>
            </Timeline.Item> 
            <Timeline.Item color="green">
-            <p>Here at VMware, I have had a wide vast of experiences developing for VMware's operating system, the vmkernel. As a member of the ESXi ARM team,
-              I work on the ARM implementation of ESXi, which has many unique use cases.
+            <p>At VMware, I had a wide vast of experiences developing for VMware's operating system, the vmkernel. As a member of the ESXi ARM team,
+              I worked on the ARM implementation of ESXi, which has many unique use cases.
             </p>
            </Timeline.Item> 
            <Timeline.Item color="green">
@@ -104,18 +104,16 @@ export default class Experience extends Component {
               as part of this initiative.
              </p>
            </Timeline.Item>
+           <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }}/>}>
+            <p>August 2022: Began work at Amazon Alexa
+            </p>
+           </Timeline.Item> 
            <Timeline.Item color="green">
-             <p>
-             Other work I completed for the ARM team include smaller technical debt items like the saving and restoring of certain registers on 
-             signals and upon returning from signals. 
-             </p>
-           </Timeline.Item>
-           <Timeline.Item color="green">
-             <p>
-              I also have done a number of bug triaging and fixing for the team and some of my own independent learning about vmkernel modules, 
-              device drivers, the ARM architecture, and more.
-             </p>
-           </Timeline.Item>
+            <p>Now, I'm working at Amazon on the Alexa Music Skills Kit Service team. I get to work with a variety of music service providers and 
+              learn a ton about both working on a high priority product for Alexa as well as some very interesting skills like developing for VUI, 
+              reading and interpretting useful metrics and data, and collaborating with a large team.
+            </p>
+           </Timeline.Item> 
         </Timeline>
         </div>
       </div>

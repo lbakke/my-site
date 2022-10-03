@@ -36,7 +36,7 @@ export default class Introduction extends Component {
                 wrapper='b'
                 steps={[
                     'a Notre Dame alum.', 2000,
-                    'a VMware ESXi developer.', 2000,
+                    'an Amazon Alexa Music Developer.', 2000,
                     'a software engineer.', 2000
                 ]}
                 />
