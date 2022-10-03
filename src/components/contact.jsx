@@ -1,32 +1,26 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import '../App.css'; 
-import { Link, animateScroll as scroll } from "react-scroll"; 
-//import { Link } from 'react-router-dom';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons'
 
 import { Browser, SpeechBubble } from 'react-kawaii'
-
-import { FaGithub } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaLinkedin, FaPaperPlane } from 'react-icons/fa';
 import { IconContext } from "react-icons";
-
-
-import { MailTwoTone, CodeTwoTone, GithubFilled, MailOutlined } from '@ant-design/icons';
-
 import { Statistic } from 'antd';
 
 
+function smallScreen(props) {
+  if (window.innerWidth > 800) {
+    return <div className="speech-bubble"><SpeechBubble size={100} mood="happy" color="#83D1FB" style={{"margin-top": "-50px", "float": "right!important"}}/></div>;
+  }
+}
+
 export default class Contact extends Component {
+
   render() {
     return (
       <div>
         <div className="blank-space"/>
         <div className="contact-box">
           <div className="contact-header" name="contact" style={{"width": "50%", "float": "left"}}>contact</div>
-          <div className="speech-bubble"><SpeechBubble size={100} mood="happy" color="#83D1FB" style={{"margin-top": "-50px", "float": "right!important"}}/></div>
+          { smallScreen() }
       <div className="contact-text">
         <div className="react-icons-box">
         <IconContext.Provider value={{ className: "react-icons-contact" }}>
