@@ -32,13 +32,14 @@ export default class About extends Component {
         </div>
           <div className="about-text">
             <p>Hello! My name is Lauren and I'm glad to see you made it to my site. 
-          I'm from Minneapolis, MN and now live in the San Francisco Bay Area. I graduated from the University of Notre Dame in 2021 and then began working at VMware
-          as a software engineer for the vmkernel on the ESXi ARM team.</p>
-          <p>ESXi is one of VMware's first products, the bare metal hypervisor providing virtualization capabilities for a computer. It's still one of the core 
-            products VMware creates and serves as the foundation for most of what VMware has built on top of it.
-          While working on the vmkernel I have been able to learn so much about developing for an operating system and have learned a lot about programming
-          in C as well. I have also had the chance to work with a very dynamic and experienced team across the globe and learn from some of the top 
-          individuals in the Arm space.
+          I'm from Minneapolis, MN and now live in the San Francisco Bay Area. I graduated from the University of Notre Dame in 2021 and then 
+          began working as a kernel developer for VMware on the ESXi hypervisor. Now I'm working at Amazon Alexa on the Alexa Music Skills Kit
+          Service team.</p>
+          <p>Working on Amazon Alexa is a very rewarding and motivating experience so far. I have learned a lot already about developing for VUI,
+            learning how to read and interpret API metrics, understanding what depends on our service and what downstream dependencies our service 
+            has itself, and learning about how to scale to an extremely large audience. From creating new APIs to support upcoming Alexa Music features,
+            to collaborating with other teams within Alexa, this team has pushed me to learn and understand more about what makes a service reliable,
+            scalable, and delightful for users and Music Service Providers alike to interact with.
           </p>
 
         </div>
