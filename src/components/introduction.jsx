@@ -28,7 +28,7 @@ export default class Introduction extends Component {
             </IconContext.Provider>
             </div>
         <div className="intro-box">
-          <Title className="intro-name">Hi, I'm Lauren.</Title>
+          <Title className="intro-name">Hi, I'm <a style={{color: '#00ccff'}} href="https://drive.google.com/file/d/1yHTKkbch95PZ39eG5fTqehrvkWO8aWA8/view?usp=sharing">Lauren</a>.</Title>
         <div className="typing-box">
             <p> I'm {' '}
                 <Typical 
